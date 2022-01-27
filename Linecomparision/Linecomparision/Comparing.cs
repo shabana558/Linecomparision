@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Linecomparision
 {
-    internal class Program
+    internal class Comparing
     {
         //variable declaration
         public static int x1, x2, y1, y2;
-        static void Main(string[] args)
+        public static void comparing()
         {
             for (int i = 0; i < 2; i++)
             {
@@ -35,7 +35,7 @@ namespace Linecomparision
 
         }
     }
-    public class FindingLength
+    public class findinglength
     {
         public void LineLength(int x1, int y1, int x2, int y2, int i)
         {
@@ -48,7 +48,7 @@ namespace Linecomparision
 
         }
     }
-    public class CheckEquality
+    public class checkequality
     {
         public void ComputeEquals()
         {
@@ -67,7 +67,7 @@ namespace Linecomparision
         }
     }
 
-    public static class InitializeArray
+    public static class initializearray
     {
         public static string[] values = new string[2];
         public static void Data(string val, int index)
@@ -75,5 +75,4 @@ namespace Linecomparision
             values[index] = val;
         }
     }
-    }
-
+}

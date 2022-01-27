@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculatelength.cs" />
+    <Compile Include="Comparing.cs" />
     <Compile Include="Equallines.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
