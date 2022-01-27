@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Linecomparision
 {
-    internal class Program
+    internal class Equallines
     {
         //variable declaration
         public static int x1, x2, y1, y2;
-        static void Main(string[] args)
+        public static void equallines()
+
+  
         {
             for (int i = 0; i < 2; i++)
             {
@@ -35,9 +37,9 @@ namespace Linecomparision
 
         }
     }
-    public class FindingLength
+    public class findingLength
     {
-        public void LineLength(int x1, int y1, int x2, int y2, int i)
+        public void lineLength(int x1, int y1, int x2, int y2, int i)
         {
             //calculating formula for finding length
             double sqrt = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
@@ -48,7 +50,7 @@ namespace Linecomparision
 
         }
     }
-    public class CheckEquality
+    public class checkEquality
     {
         public void ComputeEquals()
         {
@@ -64,7 +66,7 @@ namespace Linecomparision
         }
     }
 
-    public static class InitializeArray
+    public static class initializeArray
     {
         public static string[] values = new string[2];
         public static void InsertingValue(string val, int index)
@@ -72,5 +74,4 @@ namespace Linecomparision
             values[index] = val;
         }
     }
-    }
-
+}
